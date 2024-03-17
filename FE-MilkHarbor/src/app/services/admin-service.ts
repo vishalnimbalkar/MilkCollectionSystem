@@ -9,7 +9,7 @@ export class AdminServiceService {
 
   constructor(private http:HttpClient) { }
 
-  baseUrl:string='http://localhost:8080/admin/'
+  baseUrl:string='http://localhost:5000/admin/'
 
   //register
   register(payload: any): Observable<any> {
