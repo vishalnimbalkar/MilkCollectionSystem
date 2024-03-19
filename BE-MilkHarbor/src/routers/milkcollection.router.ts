@@ -3,7 +3,7 @@ import asynceHandler from 'express-async-handler'
 import { milkCollectionModel } from '../models/milk_collection.model'
 const mcRouter= Router()
 
-const data={
+const data= {
     f_id:"3`2846912376",
     milk_fat:23,
     milk_qnt:23,
